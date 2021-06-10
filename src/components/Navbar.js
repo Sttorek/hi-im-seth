@@ -9,7 +9,7 @@ function Navbar() {
         <p className="link">Skills</p>
         <p className="link">Work</p>
       </div>
-      <p className="link contactLink">Contact</p>
+      <p className="contactLink">Contact</p>
     </div>
   );
 }
