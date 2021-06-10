@@ -1,4 +1,7 @@
 
+.page {
+    color: white;
+}
 
 /* NavBar ------------------------------------------------------ */
 
@@ -20,6 +23,36 @@
 .contactLink {
   margin-left: 920px;
 }
+
+
+/* Homepage ----------------------------------------------------- */
+
+.introCont {
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    margin-top: 200px;
+    line-height: 1px;
+}
+
+.hi {
+    font-size: 30px;
+}
+
+.position {
+    font-size: 60px;
+}
+
+.facts {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1780px) {
   .link {
