@@ -1,3 +1,5 @@
+
+
 /* NavBar ------------------------------------------------------ */
 
 .navbar {
@@ -12,50 +14,47 @@
 }
 
 .link {
-    margin-left: 150px;
+  margin-left: 150px;
 }
 
 .contactLink {
   margin-left: 920px;
 }
 
-
-
-
 @media screen and (max-width: 1780px) {
-   .link {
+  .link {
     margin-left: 50px;
-   }
-   .linkContainer {
-       margin-left: 100px;
-   }
   }
+  .linkContainer {
+    margin-left: 100px;
+  }
+}
 
-  @media screen and (max-width: 1440px) {
-    .contactLink {
-        margin-left: 600px;
-    }
-   }
+@media screen and (max-width: 1440px) {
+  .contactLink {
+    margin-left: 600px;
+  }
+}
 
-   @media screen and (max-width: 1130px) {
-    .contactLink {
-        margin-left: 50px;
-    }
-   }
+@media screen and (max-width: 1130px) {
+  .contactLink {
+    margin-left: 50px;
+  }
+}
 
-   @media screen and (max-width: 590px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-    .linkContainer {
-        flex-direction: column;
-        margin-left: 0px;
-    }
-    .contactLink {
-        margin-left: 0px;
-    }
-    .link {
-        margin-left: 0px;
-    }
-   }
+@media screen and (max-width: 590px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .linkContainer {
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .contactLink {
+    margin-left: 0px;
+  }
+  .link {
+    margin-left: 0px;
+  }
+}
