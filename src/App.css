@@ -25,11 +25,39 @@
 }
 
 
+.effect {
+    color: white;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.4s ease-out;
+  }
+  
+  .effect::after {
+    border-radius: 50%;
+    border-top: 3px solid #ff8c00;
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: -5px;
+    left: 0;
+    transition: right 0.4s cubic-bezier(0, 0.5, 0, 1), border-color 0.4s ease-out;
+  }
+  
+  .effect:hover {
+    text-decoration: none;
+    color: #ff8c00;
+  }
+  
+  .effect:hover::after {
+    right: 0;
+    color: white;
+  }
+
 /* Homepage ----------------------------------------------------- */
 
 .introCont {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-left: 180px;
     margin-top: 200px;
     line-height: 1px;
@@ -47,6 +75,30 @@
     font-size: 20px;
 }
 
+#profile-pic {
+    width: 400px;
+    margin-top: 130px;
+  }
+  
+  #profile-pic:hover {
+    transition: 1s;
+    -webkit-transition: 1s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  
+  #circle {
+    margin-left: 300px;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
 
 
 

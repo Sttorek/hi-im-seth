@@ -4,12 +4,12 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className='linkContainer'>
-        <p className="link">Home</p>
-        <p className="link">About</p>
-        <p className="link">Skills</p>
-        <p className="link">Work</p>
+        <p className="link effect">Home</p>
+        <p className="link effect">About</p>
+        <p className="link effect">Skills</p>
+        <p className="link effect">Work</p>
       </div>
-      <p className="contactLink">Contact</p>
+      <p className="contactLink effect">Contact</p>
     </div>
   );
 }
