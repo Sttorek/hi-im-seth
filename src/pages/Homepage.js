@@ -5,7 +5,7 @@ function Homepage() {
   return (
     <div>
       <div className="introCont">
-        <div>
+        <div className='media1'>
           <div className='animate__animated animate__fadeInLeft'>
             <p className="hi"> Hi, I'm Seth</p>
           </div>
@@ -13,7 +13,7 @@ function Homepage() {
             <p>Full-Stack Web Developer</p>
           </div>
           <div>
-            <p  className="facts animate__animated animate__fadeInUpBig animate__delay-2s">Always Adding skills to the arsenal.</p>
+            <p  className="facts animate__animated animate__fadeInUpBig animate__delay-2s">Always Adding skills to my arsenal.</p>
             <br />
             <p  className="facts animate__animated animate__fadeInUpBig animate__delay-3s">Committing to the challenges in front of me.</p>
             <br />
