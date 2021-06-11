@@ -97,6 +97,56 @@
   align-items: center;
 }
 
+/* About page ---------------------------------------------------------------- */
+
+.about-me {
+    margin-left: 180px;
+    margin-bottom: 300px;
+    font-size: 20px;
+    display: flex;
+}
+
+.about-title {
+    font-size: 40px;
+    width: fit-content;
+    border-bottom: 2px solid #ff8c00;
+}
+
+.story {
+    color: rgb(214, 211, 211);
+}
+
+.descCont {
+    
+    margin-top: 180px;
+    width: 600px;
+}
+
+.mainImgCont {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+.aboutMainImg {
+    border-radius: 5px;
+}
+
+.aboutImages {
+    /* width: 400px;
+    height: 400px; */
+    
+}
+
+
+
+
+
+
+
+
+
 /* media querries -----------------------------------------------------------*/
 @media screen and (max-width: 1780px) {
   .link {
