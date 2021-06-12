@@ -119,24 +119,46 @@
 .descCont {
     margin-top: 180px;
     width: 600px;
+    z-index: 2;
 }
 
-.aboutImgCont {
+.socialLinkCont {
+    background-color: rgb(53, 34, 34);
+    width: 1000px;
+    height: 1200px;
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+.basicCont {
+    margin-left: 50%;
+}
+
+.checkOut {
+    font-size: 35px;
+    border-bottom: 2px solid #ff8c00;
+    width: fit-content;
+    /* margin-left: 50%; */
+    margin-top: 40px;
+}
+
+.linkCont {
+    /* margin-left: 50%; */
+    color: #cac9c7;
     display: flex;
-    flex-direction: row;
-    width: 900px;
+    flex-direction: column;
+    width: fit-content;
+    transform: rotate(-40deg);
 }
 
-.flexTwo {
-    margin-top: 400px;
+.lin {
+    margin-top: 80px;
+    margin-left: 70px;
+    transform: rotate(40deg);
 }
 
-.aboutImages {
-    width: 400px;
-    height: 400px;
-    margin-bottom: 400px;
-    
-}
 /* ----------------Carousel---------------------- */
 
 
@@ -148,6 +170,7 @@
     margin-left: 40%;
     margin-bottom: 1000px;
     perspective: 1000px;
+    z-index: 2;
   }
   
   .carousel {

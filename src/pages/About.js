@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function About() {
   return (
     <div>
@@ -20,25 +19,52 @@ function About() {
             world in a positive environment.
           </p>
         </div>
-      </div>
-    
-{/* --------------------------------------- */}
-<div class="carousel-container">
-        <div class="carousel">
-          <div class="carousel__face"><span></span></div>
-          <div class="carousel__face"><span></span></div>
-          <div class="carousel__face"><span></span></div>
-          <div class="carousel__face"><span></span></div>
-          <div class="carousel__face"><span></span></div>
-          <div class="carousel__face"><span></span></div>
-          <div class="carousel__face"><span></span></div>
-          <div class="carousel__face"><span></span></div>
-          <div class="carousel__face"><span></span></div>
+        <div className="socialLinkCont">
+          <div className="basicCont">
+            <p className="checkOut">Check Me Out</p>
+            <div className="linkCont">
+              <i class=" lin fas fa-phone fa-2x"></i>
+              <i class="lin fas fa-envelope fa-2x"></i>
+              <i class="lin fas fa-file-alt fa-2x"></i>
+              <i class="lin fab fa-github-square fa-2x"></i>
+              <i class="lin fab fa-facebook-square fa-2x"></i>
+            </div>
+          </div>
         </div>
       </div>
 
-
-
+      {/* --------------------------------------- */}
+      <div class="carousel-container">
+        <div class="carousel">
+          <div class="carousel__face">
+            <span></span>
+          </div>
+          <div class="carousel__face">
+            <span></span>
+          </div>
+          <div class="carousel__face">
+            <span></span>
+          </div>
+          <div class="carousel__face">
+            <span></span>
+          </div>
+          <div class="carousel__face">
+            <span></span>
+          </div>
+          <div class="carousel__face">
+            <span></span>
+          </div>
+          <div class="carousel__face">
+            <span></span>
+          </div>
+          <div class="carousel__face">
+            <span></span>
+          </div>
+          <div class="carousel__face">
+            <span></span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
