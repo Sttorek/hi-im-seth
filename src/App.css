@@ -244,8 +244,57 @@
   }
   
 
+/* skills ------------------------------------------------------------------- */
+
+.skill-slant {
+  width: 1000px;
+  height: 600px;
+  background-color: rgb(37, 28, 28);
+  clip-path: polygon(0 0, 0% 80%, 100% 0);
+  position: absolute;
+  top: 55px;
+  z-index: 1;
+}
+
+.skill-title {
+  font-size: 45px;
+  margin-left: 250px;
+  margin-top: 120px;
+ width: fit-content;
+ height: 70px;
+ padding-bottom: 2px;
+ border-bottom: 2px solid #ff8c00;
+}
 
 
+.skill-cont {
+position: relative;
+z-index: 2;
+margin-left: 1300px;
+margin-top: 150px;
+font-size: 24px;
+width: fit-content;
+height: fit-content;
+}
+
+.elegantshadow {
+  color: #cac9c7;
+  /* color: transparent; */
+  text-shadow: 0px 10px 10px #421e1e;
+}
+
+
+.badge-cont {
+  position: absolute;
+  z-index: 2;
+  margin-top: 480px;
+  margin-left: 330px;
+  
+}
+.badge {
+  margin-left: 20px;
+  color: #ebeae9;
+}
 
 
 
