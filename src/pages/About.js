@@ -5,7 +5,7 @@ function About() {
     <div>
       <div className="about-me">
         <div className="descCont">
-          <p className="about-title">Get to know me</p>
+          <p className="about-title">Get To Know Me</p>
           <p className="story">
             In 2017 I became a Telecommunications Tower Technician for Summitt
             Cellular Inc. and after three years in the field I felt as though I

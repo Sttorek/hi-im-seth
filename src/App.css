@@ -135,24 +135,25 @@
 }
 
 .basicCont {
-    margin-left: 50%;
+    margin-left: 35%;
 }
 
 .checkOut {
     font-size: 35px;
     border-bottom: 2px solid #ff8c00;
     width: fit-content;
-    /* margin-left: 50%; */
+    text-align: center;
+    margin-left: 25%;
     margin-top: 40px;
 }
 
 .linkCont {
     /* margin-left: 50%; */
     color: #cac9c7;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     width: fit-content;
-    transform: rotate(-40deg);
+    /* transform: rotate(-40deg); */
     /* background-color: tomato; */
     margin-top: 30px;
 }
@@ -160,7 +161,7 @@
 .lin {
     margin-top: 80px;
     margin-left: 70px;
-    transform: rotate(40deg);
+    /* transform: rotate(40deg); */
 }
 
 /* ----------------Carousel---------------------- */
@@ -171,7 +172,7 @@
     position: relative;
     width: 320px;
     /* margin: 100px auto 0 auto; */
-    margin-left: 40%;
+    margin-left: 38%;
     margin-bottom: 1000px;
     perspective: 1000px;
     z-index: 2;
@@ -186,13 +187,13 @@
   }
   .carousel__face { 
     position: absolute;
-    width: 250px;
+    width: 300px;
     height: 200px;
     top: 20px;
     left: 10px;
     right: 10px;
     background-size: cover;
-    /* box-shadow:inset 0 0 0 2000px rgba(68, 68, 68, 0.5); */
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
     display: flex;
   }
   
@@ -293,6 +294,12 @@
   }
   .media1 {
     align-items: center;
+  }
+  .descCont {
+      margin-top: 400px;
+  }
+  .basicCont {
+      margin-left: 650px;
   }
 }
 
