@@ -30,7 +30,9 @@ function About() {
               <i className="lin fab fa-facebook-square fa-2x"></i>
             </div>
           </div>
+
         </div>
+          <i class="animate__animated animate__bounceInDown animate__delay-2s arrow fas fa-chevron-down fa-3x"></i>
       </div>
 
       {/* --------------------------------------- */}
