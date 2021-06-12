@@ -1,5 +1,6 @@
 .page {
   color: white;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 /* NavBar ------------------------------------------------------ */
@@ -114,6 +115,7 @@
 
 .story {
     color: rgb(214, 211, 211);
+    line-height: 2em;
 }
 
 .descCont {
@@ -151,6 +153,8 @@
     flex-direction: column;
     width: fit-content;
     transform: rotate(-40deg);
+    /* background-color: tomato; */
+    margin-top: 30px;
 }
 
 .lin {
