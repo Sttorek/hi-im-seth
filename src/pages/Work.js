@@ -4,7 +4,11 @@ import React from "react";
 function Work() {
   return (
     <div>
-        Work section!!!!!!!!!!!
+        <div className="firstProjectBackground"></div>
+        <div className="secondProjectBackground"></div>
+        <div className="thirdProjectBackground"></div>
+        <div className="fourthProjectBackground"></div>
+
     </div>
   );
 }

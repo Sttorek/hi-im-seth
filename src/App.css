@@ -295,6 +295,40 @@
   color: #ebeae9;
 }
 
+/* work page --------------------------------------------------------------- */
+
+.firstProjectBackground {
+background: linear-gradient(#212324, black);
+width: 100%;
+height: 500px;
+margin-top: 500px;
+}
+
+.secondProjectBackground {
+background: linear-gradient(#1a191a, black);
+  width: 100%;
+  height: 500px;
+}
+
+.thirdProjectBackground {
+background: linear-gradient(#232b2b, black);
+  width: 100%;
+  height: 500px;
+}
+
+.fourthProjectBackground {
+background: linear-gradient(#3b444b, black);
+  width: 100%;
+  height: 500px;
+}
+
+
+
+
+
+
+
+
 /* media querries -----------------------------------------------------------*/
 @media screen and (max-width: 1780px) {
   .link {
