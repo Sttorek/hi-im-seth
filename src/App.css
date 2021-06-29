@@ -358,6 +358,8 @@ background: linear-gradient(#3b444b, black);
 
 
 
+
+
 /* media querries -----------------------------------------------------------*/
 @media screen and (max-width: 1780px) {
   .link {
@@ -392,6 +394,9 @@ background: linear-gradient(#3b444b, black);
   .badge-cont {
     margin-left: 100px;
     margin-top: 520px;
+  }
+  .workHead {
+    margin-left: 17%;
   }
 }
 
@@ -431,6 +436,10 @@ background: linear-gradient(#3b444b, black);
   }
   .arrow {
     display: none;
+  }
+  .workHead {
+    flex-direction: column;
+    margin-top: -500px;
   }
 }
 
