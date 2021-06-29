@@ -302,24 +302,53 @@ background: linear-gradient(#212324, black);
 width: 100%;
 height: 500px;
 margin-top: 500px;
+position: relative;
+z-index: 2;
+
 }
 
 .secondProjectBackground {
 background: linear-gradient(#1a191a, black);
   width: 100%;
   height: 500px;
+  position: relative;
+  z-index: 2;
+
 }
 
 .thirdProjectBackground {
 background: linear-gradient(#232b2b, black);
   width: 100%;
   height: 500px;
+  position: relative;
+  z-index: 2;
+
 }
 
 .fourthProjectBackground {
 background: linear-gradient(#3b444b, black);
   width: 100%;
   height: 500px;
+  position: relative;
+  z-index: 2;
+}
+
+.workHead {
+  /* background-color: #cac9c7; */
+  width: fit-content;
+  height: fit-content;
+  margin-left: 22%;
+  margin-top: -300px;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+}
+
+.workTitle {
+  font-size: 36px;
+  color: #ff8c00;
+  margin: auto;
+  margin-top: auto;
 }
 
 
