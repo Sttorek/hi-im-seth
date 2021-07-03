@@ -13,10 +13,18 @@ function Work() {
         </div>
       </div>
 
-        <div className="firstProjectBackground"></div>
-        <div className="secondProjectBackground"></div>
-        <div className="thirdProjectBackground"></div>
-        <div className="fourthProjectBackground"></div>
+        <div className="firstProjectBackground">
+          <div className="projCont"></div>
+        </div>
+        <div className="secondProjectBackground">
+        <div className="projCont"></div>
+        </div>
+        <div className="thirdProjectBackground">
+        <div className="projCont"></div>
+        </div>
+        <div className="fourthProjectBackground">
+        <div className="projCont"></div>
+        </div>
 
     </div>
   );
