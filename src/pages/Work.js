@@ -21,7 +21,7 @@ function Work() {
           <div className="projCont">
             <div className="Titles">
               <p className="projectTitles">Git Commit</p> 
-              <p>An app designed for developers to practice their skills, tract their progress and learn new skills</p>
+              <p>An app designed for developers to practice their skills, tract their progress and learn new skills as well.</p>
             </div>
               <img className="projImg" alt="project" src={Project1} />
           </div>
@@ -31,7 +31,7 @@ function Work() {
           <div className="projCont">
             <div className="Titles">
               <p className="projectTitles">Home Route</p>
-              <p>An app designed for developers to practice their skills, tract their progress and learn new skills</p>
+              <p>Designed to make it easier a company or individual to keep track of their properties, tenants, and more.</p>
             </div>
               <img className="projImg" alt="project" src={Project2} />
           </div>
@@ -42,7 +42,7 @@ function Work() {
           <div className="projCont">
             <div className="Titles">
              <p className="projectTitles">Snoopie</p>
-             <p>An app designed for developers to practice their skills, tract their progress and learn new skills</p>
+             <p>Thinking of adopting a pet? You can now search around your area for shelters through third party APIs to <br/> find the right animal for you.</p>
             </div>
               <img className="projImg" alt="project" src={Project3} />
           </div>
@@ -53,7 +53,7 @@ function Work() {
           <div className="projCont">
             <div className="Titles">
               <p className="projectTitles">Work Day <br /> Scheduler</p>
-              <p>An app designed for developers to practice their skills, tract their progress and learn new skills</p>
+              <p>Created so that you may never miss another meeting or get off track. Always be organized and ready for <br/>the day.</p>
             </div>
               <img className="projImg" alt="project" src={Project4} />
           </div>
