@@ -304,6 +304,10 @@ height: 500px;
 margin-top: 500px;
 position: relative;
 z-index: 2;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: row;
 
 }
 
@@ -313,7 +317,10 @@ background: linear-gradient(#1a191a, black);
   height: 500px;
   position: relative;
   z-index: 2;
-
+  display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: row;
 }
 
 .thirdProjectBackground {
@@ -322,7 +329,10 @@ background: linear-gradient(#232b2b, black);
   height: 500px;
   position: relative;
   z-index: 2;
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
 }
 
 .fourthProjectBackground {
@@ -331,10 +341,13 @@ background: linear-gradient(#3b444b, black);
   height: 500px;
   position: relative;
   z-index: 2;
+  display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: row;
 }
 
 .workHead {
-  /* background-color: #cac9c7; */
   width: fit-content;
   height: fit-content;
   margin-left: 22%;
@@ -351,6 +364,25 @@ background: linear-gradient(#3b444b, black);
   margin-top: auto;
 }
 
+.projCont {
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+
+.projImg {
+  width: 600px;
+  height: 300px;
+  margin-left: 400px;
+}
+
+.projectTitles {
+  font-size: 30px;
+  color: #d8d7d6;
+}
+.titles {
+
+}
 
 
 
