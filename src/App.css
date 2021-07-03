@@ -350,7 +350,7 @@ flex-direction: row;
 .workHead {
   width: fit-content;
   height: fit-content;
-  margin-left: 22%;
+  margin-left: 15%;
   margin-top: -300px;
   position: absolute;
   z-index: 1;
@@ -362,6 +362,7 @@ flex-direction: row;
   color: #ff8c00;
   margin: auto;
   margin-top: auto;
+  margin-right: 330px;
 }
 
 .projCont {
