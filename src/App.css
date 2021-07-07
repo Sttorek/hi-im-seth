@@ -447,7 +447,6 @@ flex-direction: row;
     width: 500px;
     height: 250px;
   }
-
   .titles {
     display: flex;
   }
@@ -459,6 +458,11 @@ flex-direction: row;
   }
   #circle {
     margin-left: 150px;
+  }
+  .projImg {
+    margin-left: 20px;
+    width: 450px;
+    height: 200px;
   }
 }
 
@@ -494,6 +498,20 @@ flex-direction: row;
     flex-direction: column;
     margin-top: -500px;
   }
+  .projCont {
+    flex-direction: column;
+  }
+  .projectTitles {
+    text-align: center;
+  }
+  .projectDesc {
+    text-align: center;
+  }
+  .projImg {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
 }
 
 @media screen and (max-width: 1130px) {
@@ -564,6 +582,9 @@ flex-direction: row;
   .skill-title {
     margin-top: 250px;
     margin-left: 130px;
-
+  }
+  .projImg {
+    width: 350px;
+    height: 180px;
   }
 }
