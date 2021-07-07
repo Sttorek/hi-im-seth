@@ -422,6 +422,9 @@ flex-direction: row;
   .projImg {
     margin-left: 200px;
   }
+  .workTitle {
+    margin-right: 200px;
+  }
 }
 
 @media screen and (max-width: 1580px) {
@@ -449,6 +452,10 @@ flex-direction: row;
   }
   .titles {
     display: flex;
+  }
+
+  .workTitle {
+    margin-right: 50px;
   }
 }
 
@@ -497,6 +504,13 @@ flex-direction: row;
   .workHead {
     flex-direction: column;
     margin-top: -500px;
+    align-items: center;
+    margin-left: 0%;
+    width: 100vw;
+  }
+  .workTitle {
+    width: 100%;
+    text-align: center;
   }
   .projCont {
     flex-direction: column;
