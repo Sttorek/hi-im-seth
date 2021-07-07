@@ -380,9 +380,16 @@ flex-direction: row;
 .projectTitles {
   font-size: 30px;
   color: #d8d7d6;
+  padding: 20px;
 }
-.titles {
 
+.projectDesc {
+  color: #d8d7d6;
+  padding: 20px;
+}
+
+.titles {
+  padding: 50px;
 }
 
 
@@ -411,6 +418,10 @@ flex-direction: row;
     width: 900px;
     height: 800px;
   }
+
+  .projImg {
+    margin-left: 200px;
+  }
 }
 
 @media screen and (max-width: 1580px) {
@@ -430,6 +441,15 @@ flex-direction: row;
   }
   .workHead {
     margin-left: 17%;
+  }
+  .projImg {
+    margin-left: 100px;
+    width: 500px;
+    height: 250px;
+  }
+
+  .titles {
+    display: flex;
   }
 }
 
