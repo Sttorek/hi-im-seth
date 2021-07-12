@@ -394,7 +394,26 @@ flex-direction: row;
 }
 
 
+/* contact page -------------------------------------------------------------- */
 
+.contactBox {
+  background-color: #cac9c7;
+  width: 600px;
+  height: 500px;
+  margin: auto;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactTitle {
+  text-align: center;
+}
 
 
 
