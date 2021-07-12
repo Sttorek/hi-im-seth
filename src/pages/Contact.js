@@ -26,19 +26,19 @@ function Contact() {
 
   return (
     <div>
-      <div className="contactBox">
+      <div className="contactBox animate__animated animate__rubberBand">
         <h1 className="contactTitle">Let's Talk</h1>
 
         <form className="contact-form" onSubmit={sendEmail}>
-          <label>Subject</label>
-          <input type="text" name="subject" />
           <label>Name</label>
           <input type="text" name="name" />
           <label>Email</label>
           <input type="email" name="email" />
+          <label>Subject</label>
+          <input type="text" name="subject" />
           <label>Message</label>
           <textarea name="message" />
-          <input type="submit" value="Send" />
+          <input className="sendBtn" type="submit" value="Send" />
         </form>
       </div>
     </div>

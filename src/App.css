@@ -397,13 +397,19 @@ flex-direction: row;
 /* contact page -------------------------------------------------------------- */
 
 .contactBox {
-  background-color: #cac9c7;
+  background: linear-gradient(#232b2b, black);
   width: 600px;
   height: 500px;
   margin: auto;
   margin-top: 150px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  color:rgb(214, 211, 211);
+  /* box-shadow: 10px 5px 5px rgb(20, 20, 20); */
+  border: 1px solid black;
 }
 
 .contact-form {
@@ -413,9 +419,29 @@ flex-direction: row;
 
 .contactTitle {
   text-align: center;
+  color: #ff8c00;
 }
 
+label {
+  margin-top: 20px;
+}
 
+input {
+  border-radius: 4px;
+}
+
+textarea {
+  height: 80px;
+}
+
+.sendBtn {
+  width: 250px;
+  height: 35px;
+  margin: auto;
+  margin-top: 40px;
+  background-color: #ff8c00;
+  font-size: 18px;
+}
 
 
 
@@ -426,7 +452,7 @@ flex-direction: row;
     margin-left: 50px;
   }
   .linkContainer {
-    margin-left: 100px;
+    margin-left: 300px;
   }
 
   .arrow {
