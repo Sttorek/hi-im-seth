@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../assets/resume.pdf";
 
 function About() {
   return (
@@ -23,16 +24,26 @@ function About() {
           <div className="basicCont">
             <p className="checkOut">Check Me Out</p>
             <div className="linkCont">
-              <i className=" lin fas fa-phone fa-2x"></i>
-              <i className="lin fas fa-envelope fa-2x"></i>
-              <i className="lin fas fa-file-alt fa-2x"></i>
-              <i className="lin fab fa-github-square fa-2x"></i>
-              <i className="lin fab fa-facebook-square fa-2x"></i>
+              <i className="lin dropdown fas fa-phone-volume fa-2x">
+                <p className="dropdown-content">706.308.8557</p>
+              </i>
+            
+              <a target="blank" href={resume}>
+                <i className="lin fas fa-file-alt fa-2x"></i>
+              </a>
+              <a target="blank" href="https://github.com/Sttorek">
+                <i className="lin fab fa-github-square fa-2x"></i>
+              </a>
+              <a
+                target="blank"
+                href="https://www.linkedin.com/in/seth-torek-5211b1201/"
+              >
+                <i class="lin icon fab fa-linkedin fa-2x"></i>
+              </a>
             </div>
           </div>
-
         </div>
-          <i class="animate__animated animate__bounceInDown animate__delay-2s arrow fas fa-chevron-down fa-3x"></i>
+        <i class="animate__animated animate__bounceInDown animate__delay-2s arrow fas fa-chevron-down fa-3x"></i>
       </div>
 
       {/* --------------------------------------- */}
