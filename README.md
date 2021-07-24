@@ -1,3 +1,17 @@
+
+# Hi I'm Seth
+
+
+This is my most recent portfolio. I have added various ways to get in touch with me so feel free to contact me!
+
+site-https://sttorek.github.io/react-portfolio/
+
+![portfolio](./src/images/Screenshot.png)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
