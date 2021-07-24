@@ -7,6 +7,7 @@ This is my most recent portfolio. I have added various ways to get in touch with
 site-https://sttorek.github.io/hi-im-seth/
 
 ![portfolio](./src/images/Screenshot.png)
+(If the homepage has trouble loading switch between nav links to solve the problem)
 
 
 
