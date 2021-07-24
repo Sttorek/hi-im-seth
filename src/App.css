@@ -448,12 +448,39 @@ textarea {
 
 /* media querries -----------------------------------------------------------*/
 @media screen and (max-width: 1780px) {
-  .link {
+  /* .link {
     margin-left: 50px;
-  }
+  } */
   .linkContainer {
-    margin-left: 300px;
+    margin-left: 0px;
   }
+  .contactLink {
+    margin-left: 580px;
+  } 
+
+  /* --------------- */
+  /* .navbar {
+    display: flex;
+    background-color: black;
+    color: white;
+    position: relative;
+    z-index: 5;
+  }
+  
+  .linkContainer {
+    display: flex;
+    margin-left: 30px;
+  }
+  
+  .link {
+    margin-left: 150px;
+  }
+  
+  .contactLink {
+    margin-left: 920px;
+  } */
+
+  /* ---------------- */
 
   .arrow {
     margin-left: 400px;
@@ -507,8 +534,8 @@ textarea {
 
 @media screen and (max-width: 1440px) {
   .contactLink {
-    margin-left: 600px;
-  }
+    margin-left: 450px;
+  } 
   #circle {
     margin-left: 150px;
   }
@@ -520,6 +547,9 @@ textarea {
 }
 
 @media screen and (max-width: 1300px) {
+  .contactLink {
+    margin-left: 300px;
+  } 
   .introCont {
     flex-direction: column;
     margin: 25%;
@@ -576,7 +606,7 @@ textarea {
 
 @media screen and (max-width: 1130px) {
   .contactLink {
-    margin-left: 50px;
+    margin-left: 100px;
   }
   .carousel-container {
     display: none;
@@ -613,6 +643,9 @@ textarea {
   .skill-title {
     margin-left: 150px;
   }
+  .contactBox {
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 590px) {
@@ -646,5 +679,8 @@ textarea {
   .projImg {
     width: 350px;
     height: 180px;
+  }
+  .contactBox {
+    width: 300px;
   }
 }
